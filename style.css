@@ -1,5 +1,4 @@
 body {
-  width: 1000px;
   font-family: Arial, sans-serif;
   font-size: 1.2em;
 }
@@ -14,12 +13,16 @@ div {
 nav, footer {
   clear: both;
   background: rgb(82, 82, 82);
-  width: 100%;
+  width: 1100px;
   height: 100px;
 }
 
 footer {
   height: 150;
+}
+
+nav, section, footer {
+  padding-left: 70px;
 }
 
 #div-nav-logo {
